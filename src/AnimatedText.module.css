@@ -4,6 +4,8 @@
     position: relative;
     cursor: default;
     user-select:none;
+    min-height: 10vh;
+    max-width: 600px;
   }
   
   .animatedTextContent {

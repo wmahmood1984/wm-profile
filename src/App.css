@@ -55,8 +55,8 @@
   text-align: center;
   display: grid;
   place-items: center;
-  min-height: 10vh;
-  max-width: 600px;
+  
+  
   background-color: #202952;
   padding: 0 10px;
 }
