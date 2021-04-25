@@ -1,6 +1,8 @@
 
 import './App.css';
 import {AnimatedText} from './AnimatedText'
+import SimplePaper from './components/Paper';
+import { Typography } from '@material-ui/core';
 
 function App() {
   return (
@@ -13,8 +15,10 @@ function App() {
 
       Waqas Mahmood
       </AnimatedText>
-
       
+      <SimplePaper>
+        <Typography>abc</Typography>
+      </SimplePaper>
     </div>
   );
 }
