@@ -15,6 +15,8 @@ import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
+import pic from '../images/PetShopReact.jpg'
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -27,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
   },
   expand: {
     transform: 'rotate(0deg)',
-    marginLeft: 'auto',
+    marginLeft: 'aufto',
     transition: theme.transitions.create('transform', {
       duration: theme.transitions.duration.shortest,
     }),
@@ -40,14 +42,15 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function PortfolioReviewCard({title,url,cardContent}) {
+export default function PortfolioReviewCard({title,url,cardContent,img}) {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
-
+  
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
 
+  
   return (
     <Card className={classes.root}>
       <CardHeader
@@ -66,7 +69,7 @@ export default function PortfolioReviewCard({title,url,cardContent}) {
       />
       <CardMedia
         className={classes.media}
-        image="/static/images/cards/paella.jpg"
+        image={img}
         title="Paella dish"
       />
       <CardContent>

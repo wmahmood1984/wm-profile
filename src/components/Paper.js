@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import PortfolioReviewCard from './Card';
-import Portfolio from '../portfolio.json'
+import List from '../PortfolioList'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -20,18 +20,19 @@ const useStyles = makeStyles((theme) => ({
 export default function SimplePaper() {
   const classes = useStyles();
 
-  console.log('result',Portfolio[0].url)
+ 
 
   return (
     <div className={classes.root}>
       
       <Paper elevation={3}>
-        {Portfolio.map((item,i)=>(
+        {List.map((item,i)=>(
           <PortfolioReviewCard
           key={i}
           title = {item.title}
           url={item.url}
           cardContent = {item.description}
+          img = {item.picture}
           ></PortfolioReviewCard>
         ))}
           

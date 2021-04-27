@@ -1,15 +1,15 @@
 [
     {
       "id": 0,
-      "title": "cryptoKitty",
-      "picture": "",
-      "description": "",
-      "url": "abc.com"
+      "title": "cryptoPetShop",
+      "picture": "../images/PetShopReact.jpg",
+      "description": "This project has been designed with truffle and react. Ethereum smart contracts are deployed on back-end to preserve the authenticity of data. No other technology like drizzle etc has been used in this",
+      "url": "http://wm-petshop.surge.sh/"
     },
     {
         "id": 1,
         "title": "cryptoKittyWithDrizzle",
-        "picture": "",
+        "picture": "../images/PetShopReact.jpg",
         "description": "",
         "url": "cde.com"
       }
