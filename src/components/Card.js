@@ -22,6 +22,9 @@ const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
     margin : '10px',
+    float: 'left',
+    height: "500px",
+    border: "ridge green 3px"
   },
   media: {
     height: 0,
@@ -29,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
   },
   expand: {
     transform: 'rotate(0deg)',
-    marginLeft: 'aufto',
+    marginLeft: 'auto',
     transition: theme.transitions.create('transform', {
       duration: theme.transitions.duration.shortest,
     }),
@@ -42,13 +45,13 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function PortfolioReviewCard({title,url,cardContent,img}) {
+export default function PortfolioReviewCard({key,title,url,cardContent,img}) {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
   
-  const handleExpandClick = () => {
-    setExpanded(!expanded);
-  };
+  // const handleExpandClick = () => {
+  //   setExpanded(!expanded);
+  // };
 
   
   return (

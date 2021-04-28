@@ -1,1 +1,1 @@
-waqas.mahmood-profile.surge.sh
+waqas.mahmood1-profile.surge.sh

@@ -3,6 +3,8 @@ import './App.css';
 import {AnimatedText} from './AnimatedText'
 import SimplePaper from './components/Paper';
 import { Typography } from '@material-ui/core';
+import PortfolioReviewCard from './components/Card';
+import List from './PortfolioList'
 
 function App() {
   return (
@@ -16,9 +18,21 @@ function App() {
       Waqas Mahmood
       </AnimatedText>
       
-      <SimplePaper>
+      <div>
+      {List.map((item,i)=>(
+          <PortfolioReviewCard
+          key={i}
+          title = {item.title}
+          url={item.url}
+          cardContent = {item.description}
+          img = {item.picture}
+          ></PortfolioReviewCard>
+        ))}
+      </div>
+
+      {/* <SimplePaper>
         <Typography>abc</Typography>
-      </SimplePaper>
+      </SimplePaper> */}
     </div>
   );
 }
