@@ -17,9 +17,37 @@ function App() {
 
       Waqas Mahmood
       </AnimatedText>
-      <strong style={{ display:"block", border:"solid 1px black", height:"200px", width:"800px", verticalAlign: "middle", textAlign: "justify"}}>
-        Hey! I am Waqas. I am a fullstack Developer with additional expertise in BlockChain. I have workeed upon number of BlockChain Smart Contracts and wallets. Token is my specisalization and have worked upon different type of fungible as well as non fungible tokens
-      </strong>
+      <br/>
+        <div style={{ display:"block", border:"solid 1px black", padding:"10px", height:"auto", width:"800px", verticalAlign: "middle", textAlign: "justify"}}> 
+        <strong >
+        Hey! I am Waqas. I am a Fullstack  / BlockChain Developer. I have worked upon number of BlockChain Smart Contracts and wallets. Token is my specialization and have worked upon different type of fungible as well as non fungible tokens. Have also worked on different web development technologies including but not limited to 
+        
+        <ul style={{}}>
+        <li >ReactJs with Animation, Routers, webHooks</li>
+        <li>ReactJs with Redux Store</li>
+        <li>GatsbyJS</li>
+        <li>Amazon Web services</li>
+        <li>Netlify</li>
+        <li>GraphQl</li>
+        <li>ContentFul</li>
+        <li>StoryBook</li>
+        <li>MangoDb / FaunaDb</li>
+        </ul>
+        <p>Here are some of my sample projects</p>
+        </strong>
+        </div>
+        <br/>
+
+        <AnimatedText
+      textColor="#fc1226"
+      overlayColor="fdc62c"
+      >
+      
+
+      Sample Projects
+      </AnimatedText>
+<br/>
+      
       {/* <div>
       {List.map((item,i)=>(
           <PortfolioReviewCard
