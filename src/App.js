@@ -38,14 +38,10 @@ function App() {
         </div>
         <br/>
 
-        <AnimatedText
-      textColor="#fc1226"
-      overlayColor="fdc62c"
-      >
-      
 
-      Sample Projects
-      </AnimatedText>
+
+  <div style={{fontSize:"30px", fontFamily: "Sofia , sans-serif"}}><h1 className="font-effect-neon">Sample Projects</h1></div>
+      
 <br/>
       
       {/* <div>
