@@ -15,8 +15,6 @@ import m from './images/SelfAnimate.png'
 import n from './images/AliceInWonderLand.png'
 import o from './images/ShoeStore.png'
 import p from './images/Covid.png'
-import q from './images/1 1S-Iwvkh_TRNuMHjDgavBw.png'
-
 import r from './images/Etherum_Img_UPload.png'
 
 
